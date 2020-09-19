@@ -17,3 +17,67 @@ body, html {
     box-sizing: border-box;
 }
 
+.container {
+    width: 1352px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+
+.header {
+    width: 100%;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+/*LOGO*/
+
+.logo {
+    font-family: var(--font-raleway);
+    font-size: 32px;
+    color: var(--color-primary);
+    padding-left: calc((1362 * 136px) / 1626);
+}
+
+/*TOP MENU*/
+
+.header_nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: calc((1362 * 136px) / 1626);
+}
+
+.header_nav_category {
+    width: 10vw;
+}
+
+.header_nav_link {
+    color: var(--color-grey);
+    font-family: var(--font-open-sans);
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2vw;
+    padding-bottom: 23px;
+    padding-top: 28px;
+}
+
+
+
+.header_nav_link:hover {
+    color: black;
+    border-bottom: 4px solid var(--color-primary);
+}
+
